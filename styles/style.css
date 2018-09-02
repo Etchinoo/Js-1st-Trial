@@ -1,0 +1,63 @@
+body{
+    background: darkred;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;    
+    font-family: 'Lobster Two', cursive;
+}
+header{
+    margin-top: 50px;
+    text-align: center;
+}
+h1{
+    font-size: 50px;
+}
+h1:hover{
+    color: red;
+}
+ul{
+    padding: 10px;
+    background: rgba(0,0,0,.5);
+    text-align: center;
+}
+li{
+    display: inline;
+}
+a{
+    margin: 0 20px;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration:none;
+    display: inline;
+}
+a:hover{
+    color: red;
+    font-size: 25px;
+}
+article{ 
+    margin: 50px auto;
+    max-width: 500px;
+}
+div{
+    float:left;
+    margin-bottom:30px; 
+}
+p{
+    font-size: 18px;
+    line-height: 1.7;
+}
+h3{
+    font-size: 30px;
+}
+h3:hover{
+    color: red;
+}
+button{
+    cursor: pointer;
+    padding: 0px 25px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 18px;
+}
+button:hover{
+    color: dodgerblue;
+}
+
