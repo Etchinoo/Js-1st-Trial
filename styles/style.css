@@ -1,5 +1,8 @@
 body{
-    background: darkred;
+    background-color:darkred;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
     color: white;
     text-shadow: 2px 2px 4px #000000;    
     font-family: 'Lobster Two', cursive;
@@ -10,8 +13,10 @@ header{
 }
 h1{
     font-size: 50px;
+    transition: all 0.3s ease-in-out 0s;
 }
 h1:hover{
+    font-size: 55px;
     color: red;
 }
 ul{
@@ -28,6 +33,7 @@ a{
     color: #ffffff;
     text-decoration:none;
     display: inline;
+    transition: all 0.3s ease-in-out 0s;
 }
 a:hover{
     color: red;
@@ -47,6 +53,7 @@ p{
 }
 h3{
     font-size: 30px;
+    transition: all 0.3s ease-in-out 0s;
 }
 h3:hover{
     color: red;
@@ -56,6 +63,7 @@ button{
     padding: 0px 25px;
     font-family: 'Lobster Two', cursive;
     font-size: 18px;
+    transition: all 0.3s ease-in-out 0s;
 }
 button:hover{
     color: dodgerblue;
